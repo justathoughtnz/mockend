@@ -1,14 +1,117 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+    "UserTrial": {
+        "user_id": {
+            "int": {
+                "min": 1,
+                "max": 20
+            }
+        },
+        "group": {
+            "boolean": {}
+        },
+        "trial_id": {
+            "int": {
+                "min": 1,
+                "max": 1000000
+            }
+        },
+        "first_name": {
+            "regexp": "[A-Z][a-z]{5,10}"
+        },
+        "last_name": {
+            "regexp": "[A-Z][a-z]{5,10}"
+        },
+        "email_address": {
+            "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+        },
+        "ethnicity": {
+            "string": [
+                "Māori",
+                "Samoan",
+                "Cook Islands Maori",
+                "Tongan",
+                "Niuean",
+                "Tokelauan",
+                "Fijian",
+                "Other Pacific Peoples",
+                "European",
+                "Southeast Asian",
+                "Chinese",
+                "Indian",
+                "Other Asian",
+                "Middle Eastern",
+                "Latin American",
+                "African",
+                "Other Ethnicity"
+            ]
+        },
+        "ethnicity_other": {
+            "loremWords": {
+                "minLength": 5,
+                "maxLength": 20
+            }
+        },
+        "postcode": {
+            "int": {
+                "min": 1000,
+                "max": 9000
+            }
+        },
+        "gender": {
+            "string": [
+                "Male", "Female", "Gender diverse", "Transgender male to female", "Transgender female to male", "Rather not say"
+            ]
+        },
+        "year_of_birth": {
+            "int": {
+                "min": 1922,
+                "max": 2006
+            }
+        },
+        "marketing_options": {
+            "int": {
+                "min": 29,
+                "max": 29
+            }
+        },
+        "agreed_to_trial": {
+            "boolean": {}
+        },
+        "chart_number": {
+            "int": {
+                "min": 1,
+                "max": 100
+            }
+        },
+        "phone": {
+            "int": {
+                "min": 2200000000,
+                "max": 270999999
+            }
+        },
+        "appointment_date": {
+            "dateTime": {
+                "min": "2010-01-01T00:00:00Z",
+                "max": "2020-12-31T23:59:59Z"
+            }
+        },
+        "notes": {
+            "loremSentences": {
+                "minLength": 100,
+                "maxLength": 200
+            }
+        },
+        "created": {
+            "dateTime": {
+                "min": "2010-01-01T00:00:00Z",
+                "max": "2020-12-31T23:59:59Z"
+            }
+        },
+        "modified": {
+            "dateTime": {
+                "min": "2010-01-01T00:00:00Z",
+                "max": "2020-12-31T23:59:59Z"
+            }
+        }
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
 }
