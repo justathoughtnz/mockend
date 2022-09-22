@@ -12,11 +12,77 @@
                 "max": 4
             }
         },
-        "firstname": {
-            "loremWord": {}
+        "first_name": {
+            "string": [
+              "Emma",
+              "Alexander",
+              "Benjamin",
+              "Grace",
+              "Jacob",
+              "Mia",
+              "Sophia",
+              "Ethan",
+              "Oliver",
+              "Amelia",
+              "Abigail",
+              "Ella",
+              "Joseph",
+              "Logan",
+              "Ryan",
+              "Mason",
+              "Aiden",
+              "Madison",
+              "Avery",
+              "Maya",
+              "Wyatt",
+              "Grayson",
+              "Hazel",
+              "Sofia",
+              "Olivia",
+              "Aurora"
+            ]
         },
-        "lastname": {
-            "loremWord": {}
+        "last_name": {
+            "string":[
+              "Smith",
+              "Wilson",
+              "Brown",
+              "Williams",
+              "Taylor",
+              "Brown",
+              "Jones",
+              "Taylor",
+              "Williams",
+              "Jones",
+              "Anderson",
+              "Singh",
+              "Thompson",
+              "Wang",
+              "Campbell",
+              "Anderson",
+              "Johnson",
+              "Li",
+              "King",
+              "Thompson",
+              "Clark",
+              "Walker",
+              "Scott",
+              "Lee",
+              "Thomas",
+              "Chen",
+              "Walker",
+              "Patel",
+              "Martin",
+              "Zhang",
+              "Stewart",
+              "Martin",
+              "Wright",
+              "King",
+              "Thomson",
+              "Harris",
+              "White",
+              "Kumar"
+            ]
         },
         "emailaddress": {
             "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
