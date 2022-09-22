@@ -6,7 +6,7 @@
                 "max": 1
             }
         },
-        "trialid": {
+        "trial_id": {
             "int": {
                 "min": 1,
                 "max": 4
@@ -81,48 +81,48 @@
             ]
         },
         "last_name": {
-            "string":[
-              "Smith",
-              "Wilson",
-              "Brown",
-              "Williams",
-              "Taylor",
-              "Brown",
-              "Jones",
-              "Taylor",
-              "Williams",
-              "Jones",
-              "Anderson",
-              "Singh",
-              "Thompson",
-              "Wang",
-              "Campbell",
-              "Anderson",
-              "Johnson",
-              "Li",
-              "King",
-              "Thompson",
-              "Clark",
-              "Walker",
-              "Scott",
-              "Lee",
-              "Thomas",
-              "Chen",
-              "Walker",
-              "Patel",
-              "Martin",
-              "Zhang",
-              "Stewart",
-              "Martin",
-              "Wright",
-              "King",
-              "Thomson",
-              "Harris",
-              "White",
-              "Kumar"
+            "string": [
+                "Smith",
+                "Wilson",
+                "Brown",
+                "Williams",
+                "Taylor",
+                "Brown",
+                "Jones",
+                "Taylor",
+                "Williams",
+                "Jones",
+                "Anderson",
+                "Singh",
+                "Thompson",
+                "Wang",
+                "Campbell",
+                "Anderson",
+                "Johnson",
+                "Li",
+                "King",
+                "Thompson",
+                "Clark",
+                "Walker",
+                "Scott",
+                "Lee",
+                "Thomas",
+                "Chen",
+                "Walker",
+                "Patel",
+                "Martin",
+                "Zhang",
+                "Stewart",
+                "Martin",
+                "Wright",
+                "King",
+                "Thomson",
+                "Harris",
+                "White",
+                "Kumar"
             ]
         },
-        "emailaddress": {
+        "email_address": {
             "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
         },
         "ethnicity": {
@@ -146,7 +146,7 @@
                 "Other Ethnicity"
             ]
         },
-        "ethnicityother": {
+        "ethnicity_other": {
             "loremWords": {
                 "minLength": 5,
                 "maxLength": 20
@@ -160,30 +160,30 @@
         },
         "gender": {
             "string": [
-                "Male", 
-                "Female", 
-                "Gender diverse", 
-                "Transgender male to female", 
-                "Transgender female to male", 
+                "Male",
+                "Female",
+                "Gender diverse",
+                "Transgender male to female",
+                "Transgender female to male",
                 "Rather not say"
             ]
         },
-        "yearofbirth": {
+        "year_of_birth": {
             "int": {
                 "min": 1922,
                 "max": 2006
             }
         },
-        "marketingoptions": {
+        "marketing_options": {
             "int": {
                 "min": 29,
                 "max": 29
             }
         },
-        "agreedtotrial": {
+        "agreed_to_trial": {
             "boolean": {}
         },
-        "chartnumber": {
+        "chart_number": {
             "int": {
                 "min": 1,
                 "max": 100
@@ -195,7 +195,7 @@
                 "max": 2709999999
             }
         },
-        "appointmentdate": {
+        "appointment_date": {
             "dateTime": {
                 "min": "2010-01-01T00:00:00Z",
                 "max": "2020-12-31T23:59:59Z"
