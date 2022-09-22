@@ -10,10 +10,13 @@
             }
         },
         "firstname": {
-            "regexp": "[A-Z][a-z]{5,10}"
+            "loremWord": {}
         },
         "lastname": {
-            "regexp": "[A-Z][a-z]{5,10}"
+            "loremWord": {}
+        },
+        "email_address": {
+            "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
         },
         "ethnicity": {
             "string": [
