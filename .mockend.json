@@ -1,5 +1,5 @@
 {
-    "Usertrial": {
+    "User": {
         "user_id": {
             "int": {
                 "min": 1,
