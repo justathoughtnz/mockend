@@ -1,5 +1,5 @@
 {
-  "UserTrial": {
+  "Usertrial": {
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
