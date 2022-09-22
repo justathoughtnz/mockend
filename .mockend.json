@@ -14,7 +14,7 @@
         },
         "lastname": {
             "regexp": "[A-Z][a-z]{5,10}"
-  },
+        },
         "ethnicity": {
             "string": [
                 "Māori",
@@ -50,7 +50,12 @@
         },
         "gender": {
             "string": [
-                "Male", "Female", "Gender diverse", "Transgender male to female", "Transgender female to male", "Rather not say"
+                "Male", 
+                "Female", 
+                "Gender diverse", 
+                "Transgender male to female", 
+                "Transgender female to male", 
+                "Rather not say"
             ]
         },
         "yearofbirth": {
@@ -77,7 +82,7 @@
         "phone": {
             "int": {
                 "min": 2200000000,
-                "max": 270999999
+                "max": 2709999999
             }
         },
         "appointmentdate": {
