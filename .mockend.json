@@ -15,7 +15,7 @@
         "lastname": {
             "loremWord": {}
         },
-        "email_address": {
+        "emailaddress": {
             "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
         },
         "ethnicity": {
